@@ -1,0 +1,44 @@
+body {
+    background-color: antiquewhite;
+}
+
+img {
+    height: 15vh;
+    object-fit: cover;
+}
+
+table, td, th {
+    text-align: left;
+}
+
+table {
+    width: 100%;
+    margin: 2rem;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+td, th {
+    padding: 15px;
+}
+
+tr:nth-child(even) {
+    background-color: rgb(219, 219, 219);
+}
+
+.list {
+    height: 50vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    background-color: white;
+}
+
+.border {
+    border: 2px solid black !important;
+    height: 600px;
+    background-color: white;
+}
+
+.card {
+    cursor: pointer;
+}
